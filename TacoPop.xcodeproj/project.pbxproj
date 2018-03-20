@@ -15,6 +15,7 @@
 		DCFBA50920603C15007CE855 /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFBA50820603C15007CE855 /* DropShadow.swift */; };
 		DCFBA50B20607E29007CE855 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFBA50A20607E29007CE855 /* HeaderView.swift */; };
 		DCFBA50D20608815007CE855 /* Taco.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFBA50C20608815007CE855 /* Taco.swift */; };
+		DCFBA50F20608F5B007CE855 /* DeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFBA50E20608F5B007CE855 /* DeviceService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DCFBA50820603C15007CE855 /* DropShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
 		DCFBA50A20607E29007CE855 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		DCFBA50C20608815007CE855 /* Taco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taco.swift; sourceTree = "<group>"; };
+		DCFBA50E20608F5B007CE855 /* DeviceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				DCFBA50C20608815007CE855 /* Taco.swift */,
+				DCFBA50E20608F5B007CE855 /* DeviceService.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				DCFBA5052060378E007CE855 /* MainVC.swift in Sources */,
 				DCFBA50D20608815007CE855 /* Taco.swift in Sources */,
 				DCFBA50B20607E29007CE855 /* HeaderView.swift in Sources */,
+				DCFBA50F20608F5B007CE855 /* DeviceService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
