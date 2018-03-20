@@ -13,6 +13,7 @@
 		DCFBA4F7206036D5007CE855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFBA4F5206036D5007CE855 /* LaunchScreen.storyboard */; };
 		DCFBA5052060378E007CE855 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFBA5042060378E007CE855 /* MainVC.swift */; };
 		DCFBA50920603C15007CE855 /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFBA50820603C15007CE855 /* DropShadow.swift */; };
+		DCFBA50B20607E29007CE855 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFBA50A20607E29007CE855 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DCFBA4F8206036D5007CE855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCFBA5042060378E007CE855 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		DCFBA50820603C15007CE855 /* DropShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
+		DCFBA50A20607E29007CE855 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			children = (
 				DCFBA4F5206036D5007CE855 /* LaunchScreen.storyboard */,
 				DCFBA4F0206036D5007CE855 /* Main.storyboard */,
+				DCFBA50A20607E29007CE855 /* HeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				DCFBA4ED206036D5007CE855 /* AppDelegate.swift in Sources */,
 				DCFBA50920603C15007CE855 /* DropShadow.swift in Sources */,
 				DCFBA5052060378E007CE855 /* MainVC.swift in Sources */,
+				DCFBA50B20607E29007CE855 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
