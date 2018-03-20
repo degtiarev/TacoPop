@@ -16,6 +16,8 @@
 		DCFBA50B20607E29007CE855 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFBA50A20607E29007CE855 /* HeaderView.swift */; };
 		DCFBA50D20608815007CE855 /* Taco.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFBA50C20608815007CE855 /* Taco.swift */; };
 		DCFBA50F20608F5B007CE855 /* DeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFBA50E20608F5B007CE855 /* DeviceService.swift */; };
+		DCFBA51220609610007CE855 /* TacoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFBA51020609610007CE855 /* TacoCell.swift */; };
+		DCFBA51320609610007CE855 /* TacoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCFBA51120609610007CE855 /* TacoCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		DCFBA50A20607E29007CE855 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		DCFBA50C20608815007CE855 /* Taco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taco.swift; sourceTree = "<group>"; };
 		DCFBA50E20608F5B007CE855 /* DeviceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceService.swift; sourceTree = "<group>"; };
+		DCFBA51020609610007CE855 /* TacoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoCell.swift; sourceTree = "<group>"; };
+		DCFBA51120609610007CE855 /* TacoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TacoCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 				DCFBA4F5206036D5007CE855 /* LaunchScreen.storyboard */,
 				DCFBA4F0206036D5007CE855 /* Main.storyboard */,
 				DCFBA50A20607E29007CE855 /* HeaderView.swift */,
+				DCFBA51020609610007CE855 /* TacoCell.swift */,
+				DCFBA51120609610007CE855 /* TacoCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -183,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCFBA51320609610007CE855 /* TacoCell.xib in Resources */,
 				DCFBA4F7206036D5007CE855 /* LaunchScreen.storyboard in Resources */,
 				DCFBA4F4206036D5007CE855 /* Assets.xcassets in Resources */,
 				DCFBA4F2206036D5007CE855 /* Main.storyboard in Resources */,
@@ -196,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCFBA51220609610007CE855 /* TacoCell.swift in Sources */,
 				DCFBA4ED206036D5007CE855 /* AppDelegate.swift in Sources */,
 				DCFBA50920603C15007CE855 /* DropShadow.swift in Sources */,
 				DCFBA5052060378E007CE855 /* MainVC.swift in Sources */,

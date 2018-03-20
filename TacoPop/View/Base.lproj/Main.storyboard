@@ -37,12 +37,27 @@
                                     <constraint firstItem="5ts-ti-box" firstAttribute="centerY" secondItem="BdM-oS-dXn" secondAttribute="centerY" id="yun-x1-ku8"/>
                                 </constraints>
                             </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="MZI-t5-Utp">
+                                <rect key="frame" x="8" y="100" width="304" height="448"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="gei-AX-3ed">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="MZI-t5-Utp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="Pie-8I-XCI"/>
                             <constraint firstItem="BdM-oS-dXn" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="epy-w3-HI4"/>
                             <constraint firstItem="BdM-oS-dXn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ga7-Lo-dnS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MZI-t5-Utp" secondAttribute="trailing" constant="8" id="l54-1E-abC"/>
+                            <constraint firstItem="MZI-t5-Utp" firstAttribute="top" secondItem="BdM-oS-dXn" secondAttribute="bottom" constant="20" id="lJ3-JH-pj2"/>
                             <constraint firstItem="BdM-oS-dXn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vwT-VO-gJ3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MZI-t5-Utp" secondAttribute="bottom" constant="20" id="zap-oL-gVf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
