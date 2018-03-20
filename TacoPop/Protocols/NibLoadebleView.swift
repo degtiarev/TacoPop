@@ -12,7 +12,7 @@ protocol NibLoadebleView: class {}
 
 extension NibLoadebleView where Self: UIView{
     
-    static var nibNameL: String! {
+    static var nibName: String! {
         return String(describing: self)
     }
 }

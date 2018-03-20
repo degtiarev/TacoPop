@@ -10,15 +10,15 @@ import UIKit
 
 extension UICollectionView {
     
-    func register<T: UICollectionViewCell>(_: T.Type) where T : ReusableView, T: NibLoadebleView {
+    func register<T: UICollectionViewCell>(_: T.Type) where T: ReusableView, T: NibLoadebleView {
         
-        let nib = UINib(nibName: T.nibNameL, bundle: nil)
+        let nib = UINib(nibName: T.nibName, bundle: nil)
         register(nib, forCellWithReuseIdentifier: T.reuseIdentifier)
     }
     
-    func dequeueReusableCell<T: UICollectionViewCell> (forIndexPath indexpath: NSIndexPath) -> T where T: ReusableView {
+    func dequeueReusableCell<T: UICollectionViewCell> (forIndexPath indexPath: IndexPath) -> T where T: ReusableView {
         
-        guard let cell = dequeueReusableCell(withReuseIdentifier: T.reuseIdentifier, for: indexpath as IndexPath) as? T else {
+        guard let cell = dequeueReusableCell(withReuseIdentifier: T.reuseIdentifier, for: indexPath as IndexPath) as? T else {
             fatalError("Could nit dequue with identifier \(T.reuseIdentifier)")
         }
         
@@ -29,7 +29,7 @@ extension UICollectionView {
 
 
 
-extension UICollectionViewCell: ReusableView{
+extension UICollectionViewCell: ReusableView {
     
     
 }
