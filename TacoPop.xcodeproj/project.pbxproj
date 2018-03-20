@@ -21,6 +21,7 @@
 		DCFBA51520609DD1007CE855 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFBA51420609DD1007CE855 /* ReusableView.swift */; };
 		DCFBA5172060A373007CE855 /* NibLoadebleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFBA5162060A373007CE855 /* NibLoadebleView.swift */; };
 		DCFBA5192060A43D007CE855 /* UICollectionViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFBA5182060A43D007CE855 /* UICollectionViewExt.swift */; };
+		DCFBA51B2060CBDA007CE855 /* MutableCollectionExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFBA51A2060CBDA007CE855 /* MutableCollectionExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		DCFBA51420609DD1007CE855 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		DCFBA5162060A373007CE855 /* NibLoadebleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadebleView.swift; sourceTree = "<group>"; };
 		DCFBA5182060A43D007CE855 /* UICollectionViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExt.swift; sourceTree = "<group>"; };
+		DCFBA51A2060CBDA007CE855 /* MutableCollectionExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutableCollectionExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				DCFBA5182060A43D007CE855 /* UICollectionViewExt.swift */,
+				DCFBA51A2060CBDA007CE855 /* MutableCollectionExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				DCFBA5192060A43D007CE855 /* UICollectionViewExt.swift in Sources */,
 				DCFBA4ED206036D5007CE855 /* AppDelegate.swift in Sources */,
 				DCFBA50920603C15007CE855 /* DropShadow.swift in Sources */,
+				DCFBA51B2060CBDA007CE855 /* MutableCollectionExt.swift in Sources */,
 				DCFBA51520609DD1007CE855 /* ReusableView.swift in Sources */,
 				DCFBA5052060378E007CE855 /* MainVC.swift in Sources */,
 				DCFBA50D20608815007CE855 /* Taco.swift in Sources */,

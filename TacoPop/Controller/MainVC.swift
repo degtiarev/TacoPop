@@ -20,6 +20,8 @@ class MainVC: UIViewController, DataServiceDelegate {
         
         dataService.delegate = self
         dataService.loadDeliciousTacoData()
+        // randomize
+        dataService.tacoArray.shuffle()
         
         collectionView.delegate = self
         collectionView.dataSource = self
